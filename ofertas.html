@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Winter Wishes: confeitaria artesanal natalina com panetones, bolos, biscoitos e kits.">
+  <title>Winter Wishes | Ofertas</title>
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+</head>
+
+<body>
+  <header class="topo">
+    <div class="container barra">
+      <a href="index.html" class="logo" aria-label="Winter Wishes, página inicial"><img src="img/logo.png"
+          alt="Logo Winter Wishes" class="logo-img">Winter Wishes</a>
+      <nav class="menu" id="menu" aria-label="Menu principal">
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="sobre.html">Sobre nós</a>
+        <a href="ofertas.html" class="ativo">Ofertas</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <div class="acoes">
+        <button class="btn-carrinho" id="abrir-carrinho" aria-label="Abrir carrinho">Carrinho <span
+            id="qtd-carrinho">0</span></button>
+        <button class="btn-menu" id="btn-menu" aria-label="Abrir menu"
+          aria-expanded="false"><i></i><i></i><i></i></button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="pagina-topo">
+      <div class="container">
+        <div class="bloco-contagem">
+          <span class="selo-contagem">Ofertas especiais de fim de ano</span>
+          <h1 class="titulo-contagem">Tempo restante para garantir o seu <em>Natal</em></h1>
+          <div class="contagem" id="contagem">
+            <div class="tempo"><b id="c-dias">00</b><span>dias</span></div>
+            <div class="tempo"><b id="c-horas">00</b><span>horas</span></div>
+            <div class="tempo"><b id="c-min">00</b><span>minutos</span></div>
+            <div class="tempo"><b id="c-seg">00</b><span>segundos</span></div>
+          </div>
+          <p class="legenda-contagem">Aproveite os descontos exclusivos da confeitaria até o dia 25 de dezembro.</p>
+        </div>
+      </div>
+    </section>
+    <section class="sem-topo">
+      <div class="container">
+        <div class="ofertas">
+          <article class="oferta revelar">
+            <span class="etiqueta">-20%</span>
+            <img src="img/produtos/panetone-tradicional-frutas.jpg" alt="Panetone Tradicional de Frutas Nobres"
+              class="oferta-foto" data-detalhe="1" tabindex="0" role="button">
+            <h3 data-detalhe="1">Panetone Tradicional de Frutas Nobres</h3>
+            <p>Panetone artesanal de fermentação natural com frutas cristalizadas e uvas-passas.</p>
+            <s>R$ 68,90</s>
+            <strong>R$ 54,90</strong>
+            <button class="botao btn-comprar" data-id="1">Adicionar ao carrinho</button>
+          </article>
+          <article class="oferta revelar">
+            <span class="etiqueta">-25%</span>
+            <img src="img/produtos/tronco-natalino-chocolate.jpg" alt="Tronco Natalino Floresta Encantada"
+              class="oferta-foto" data-detalhe="4" tabindex="0" role="button">
+            <h3 data-detalhe="4">Tronco Natalino Floresta Encantada</h3>
+            <p>Tradicional rocambole natalino recheado com trufa de chocolate e decorado como tronco.</p>
+            <s>R$ 125,00</s>
+            <strong>R$ 93,90</strong>
+            <button class="botao btn-comprar" data-id="4">Adicionar ao carrinho</button>
+          </article>
+          <article class="oferta revelar">
+            <span class="etiqueta">-30%</span>
+            <img src="img/produtos/casinha-biscoito-gengibre.jpg" alt="Casinha de Biscoito de Gengibre"
+              class="oferta-foto" data-detalhe="10" tabindex="0" role="button">
+            <h3 data-detalhe="10">Casinha de Biscoito de Gengibre</h3>
+            <p>Casinha natalina montada em biscoito de gengibre artesanal com glacê e confeitos.</p>
+            <s>R$ 149,00</s>
+            <strong>R$ 104,90</strong>
+            <button class="botao btn-comprar" data-id="10">Adicionar ao carrinho</button>
+          </article>
+          <article class="oferta revelar">
+            <span class="etiqueta">-18%</span>
+            <img src="img/produtos/cheesecake-frutas-vermelhas.jpg" alt="Cheesecake Natalino de Frutas Vermelhas"
+              class="oferta-foto" data-detalhe="12" tabindex="0" role="button">
+            <h3 data-detalhe="12">Cheesecake Natalino de Frutas Vermelhas</h3>
+            <p>Cheesecake cremoso com base de biscoito e cobertura de morangos, cerejas e framboesas.</p>
+            <s>R$ 98,00</s>
+            <strong>R$ 79,90</strong>
+            <button class="botao btn-comprar" data-id="12">Adicionar ao carrinho</button>
+          </article>
+          <article class="oferta revelar">
+            <span class="etiqueta">-20%</span>
+            <img src="img/produtos/chocotone-trufado-belga.jpg" alt="Chocotone Trufado de Chocolate Belga"
+              class="oferta-foto" data-detalhe="28" tabindex="0" role="button">
+            <h3 data-detalhe="28">Chocotone Trufado de Chocolate Belga</h3>
+            <p>Chocotone macio recheado e coberto com ganache cremosa de chocolate meio amargo.</p>
+            <s>R$ 79,90</s>
+            <strong>R$ 63,90</strong>
+            <button class="botao btn-comprar" data-id="28">Adicionar ao carrinho</button>
+          </article>
+          <article class="oferta revelar">
+            <span class="etiqueta">-15%</span>
+            <img src="img/produtos/caixa-macarons-natalinos.jpg" alt="Caixa Presente de Macarons Natalinos"
+              class="oferta-foto" data-detalhe="7" tabindex="0" role="button">
+            <h3 data-detalhe="7">Caixa Presente de Macarons Natalinos</h3>
+            <p>Caixa decorada com macarons artesanais de pistache, frutas vermelhas e baunilha.</p>
+            <s>R$ 56,00</s>
+            <strong>R$ 47,60</strong>
+            <button class="botao btn-comprar" data-id="7">Adicionar ao carrinho</button>
+          </article>
+        </div>
+      </div>
+    </section>
+    <div class="modal" id="modal" hidden>
+      <div class="modal-caixa" role="dialog" aria-modal="true" aria-labelledby="modal-nome">
+        <button class="fechar" id="fechar-modal" aria-label="Fechar">×</button>
+        <div class="modal-arte" id="modal-arte"></div>
+        <div class="modal-info">
+          <small id="modal-categoria"></small>
+          <h2 id="modal-nome"></h2>
+          <p id="modal-descricao"></p>
+          <strong id="modal-preco"></strong>
+          <button class="botao" id="modal-comprar">Adicionar ao carrinho</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="rodape">
+    <div class="container rodape-grade">
+      <div>
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="Logo Winter Wishes" class="logo-img">Winter
+          Wishes</a>
+        <p>Confeitaria artesanal que transforma a sua mesa em Natal.</p>
+      </div>
+      <nav aria-label="Rodapé">
+        <h3>Navegue</h3>
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="sobre.html">Sobre nós</a>
+        <a href="ofertas.html">Ofertas</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <div>
+        <h3>Fale com a gente</h3>
+        <p>Rua Napoli, 25 · Hortôlandia</p>
+        <p>(19) 98191-0057</p>
+        <p>@winterwishes</p>
+      </div>
+    </div>
+    <p class="direitos">&copy; 2026 Winter Wishes · Projeto de Web · Isabely Akemi</p>
+  </footer>
+  <canvas id="neve" aria-hidden="true"></canvas>
+  <button class="flutuante musica" id="btn-musica" aria-label="Ligar ou desligar a música">♪ Tocar música</button>
+  <button class="flutuante topo-btn" id="topo" aria-label="Voltar ao topo">↑</button>
+  <script src="js/produtos.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
