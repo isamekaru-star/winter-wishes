@@ -1,0 +1,33 @@
+LOJA: Winter Wishes
+SEGMENTO: Confeitaria Natalina
+TURMA: 1TIC
+
+INTEGRANTES:
+ - Isabely Akemi Modro Mekaru
+
+LINKS:
+ Site (GitHub Pages): https://isamekaru-star.github.io/winter-wishes/
+ Repositório (GitHub): https://github.com/isamekaru-star/winter-wishes
+ Vídeo (YouTube): https://www.youtube.com/watch?v=...
+
+RECURSOS DE JAVASCRIPT IMPLEMENTADOS (mínimo de 8):
+ 1. Slideshow - index.html
+ 2. Parallax - index.html
+ 3. Sons (sino gerado com Web Audio e música em arquivo de áudio) - todas as páginas
+ 4. Cards dinâmicos (50 produtos gerados pelo array e destaques na Home) - index.html e produtos.html
+ 5. Filtro, busca e ordenação - produtos.html
+ 6. Carrinho com localStorage - todas as páginas
+ 7. Contagem regressiva - sobre.html e ofertas.html
+ 8. Validação de formulário - contato.html
+ 9. Menu responsivo (hambúrguer) - todas as páginas
+ 10. Modal de detalhes - index.html, produtos.html e ofertas.html
+ 11. Efeito de neve (canvas) e brilho de neve ao clicar - todas as páginas
+ 12. Animação ao rolar - todas as páginas
+ 13. Botão voltar ao topo - todas as páginas
+
+CRÉDITOS (imagens, sons e fontes):
+ - Sino: gerado pela IA
+ - Música: arquivo audio/musica-natal.mpeg
+ - Imagens dos produtos: Meta IA
+ - Fontes tipográficas: Google Fonts (Cormorant Garamond e Montserrat)
+ - Fontes tipográficas: Google Fonts (Cormorant Garamond e Montserrat)
