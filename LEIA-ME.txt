@@ -8,7 +8,7 @@ INTEGRANTES:
 LINKS:
  Site (GitHub Pages): https://isamekaru-star.github.io/winter-wishes/
  Repositório (GitHub): https://github.com/isamekaru-star/winter-wishes
- Vídeo (YouTube): https://www.youtube.com/watch?v=...
+ Vídeo (YouTube):https://youtu.be/80TsI_7Fnlo
 
 RECURSOS DE JAVASCRIPT IMPLEMENTADOS (mínimo de 8):
  1. Slideshow - index.html
