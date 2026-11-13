@@ -1,0 +1,25 @@
+.menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  padding: 1rem;
+  background: var(--noite);
+}
+
+.menu.aberto { display: flex; }
+
+@media (min-width: 600px) {
+  .grade-produtos, .ofertas, .duas-colunas, .modal-caixa { grid-template-columns: repeat(2, 1fr); }
+  .chamadas, .equipe, .filtros, .rodape-grade { grid-template-columns: repeat(3, 1fr); }
+  .slide.ativo { grid-template-columns: 1.3fr 1fr; padding: 3.5rem 3rem 5rem; }
+}
+
+@media (min-width: 992px) {
+  .grade-produtos { grid-template-columns: repeat(4, 1fr); }
+  .ofertas { grid-template-columns: repeat(3, 1fr); }
+  .menu { display: flex; position: static; flex-direction: row; padding: 0; background: none; }
+  .btn-menu { display: none; }
+}
